@@ -11,7 +11,7 @@ int main(int argc, char** argv) {
     asm("int3");
 
     int array[2] = {1,2};
-    array[2] = 3;
+    array[1] = 3;
     std::cout << array[2] << std::endl;
 
     return 0;
