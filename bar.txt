@@ -1,3 +1,2 @@
 bar
-some words
 The earth rotates.
