@@ -1,10 +1,9 @@
 #include <iostream>
 #include <string>
-using namespace std;
 
 int main(int argc, char** argv) {
 
-    string input = argv[0];
+    std::string input = argv[0];
 
     std::cout << "Hello, World!" << std::endl;
     std::cout << "input = " << input << std::endl;
