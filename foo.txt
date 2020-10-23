@@ -1,2 +1,3 @@
 foobar
 some text
+some changes
