@@ -8,8 +8,7 @@ int main(int argc, char** argv) {
     std::cout << "Hello, World!" << std::endl;
     std::cout << "input = " << input << std::endl;
 
-    int array[2] = {1,2};
-    array[1] = 3;
+    int array[] = {1,2,3};
 
     for (auto& e : array) {
       std::cout << e << std::endl;
