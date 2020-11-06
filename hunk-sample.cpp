@@ -11,5 +11,9 @@ int main(int argc, char** argv) {
     int array[2] = {1,2};
     array[1] = 3;
 
+    for (auto& e : array) {
+      std::cout << e << std::endl;
+    }
+
     return 0;
 }
