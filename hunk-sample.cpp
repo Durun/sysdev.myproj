@@ -8,11 +8,11 @@ int main(int argc, char** argv) {
     std::cout << "Hello, World!" << std::endl;
     std::cout << "input = " << input << std::endl;
 
-    asm("int3");
+    int array[] = {1,2,3};
 
-    int array[2] = {1,2};
-    array[1] = 3;
-    std::cout << array[2] << std::endl;
+    for (auto& e : array) {
+      std::cout << e << std::endl;
+    }
 
     return 0;
 }
