@@ -1,7 +1,7 @@
 version: 2.1
 
 jobs:
-  build:
+  deploy:
     docker:
       - image: circleci/openjdk:latest
     steps:
@@ -13,9 +13,9 @@ jobs:
 
 workflows:
   version: 2.1
-  build_and_test:
+  deploy:
     jobs:
-      - build:
+      - deploy:
           filters:
             branches:
               only: main
