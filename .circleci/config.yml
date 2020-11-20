@@ -10,3 +10,12 @@ jobs:
             - "cc:e2:e9:73:f0:17:71:8a:fd:89:05:50:7c:30:6c:53"
       - checkout
       - run: ./deploy.sh
+
+workflows:
+  version: 2.1
+  build_and_test:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only: main
